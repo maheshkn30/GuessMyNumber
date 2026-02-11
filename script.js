@@ -39,8 +39,14 @@ document.querySelector('.check').addEventListener('click', function () {
     document.querySelector('.number').style.fontFamily = 'monospace';
     document.querySelector('.number').textContent = `${screatenumber}`;
 
+    // 🎉 Confetti trigger
+    confetti({
+      particleCount: 150,
+      spread: 90,
+      origin: { y: 0.6 },
+    });
     //highscore
-    if (guess > highscore) {
+    if (score > highscore) {
       highscore = score;
       document.querySelector('.highscore').textContent = highscore;
     }

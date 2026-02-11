@@ -1,8 +1,6 @@
 # GuessMyNumber🎲
 
-# Tech Stack
-
-HTML, CSS, JavsScript
+Tech Stack : HTML, CSS, JavsScript
 
 # Demo Link
 
